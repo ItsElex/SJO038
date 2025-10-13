@@ -4,7 +4,7 @@
 
 void topic_callback(const std_msgs::msg::String::SharedPtr msg)
 {
-  std::cout <<msg->data << std::endl;
+  std::cout << msg->data << std::endl;
 }
 
 int main(int argc, char * argv[])
